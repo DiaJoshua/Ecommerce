@@ -11,7 +11,7 @@ export const Sidebar = () => {
       <Link to='/admin/dashboard' style={{ textDecoration: 'none' }}>
         <div className="sidebar-item">
           <img src={list_product_icon} alt="Product List Icon" />
-          <p>Dasboard</p>
+          <p>Dashboard</p>
         </div>
       </Link>
       <Link to='/admin/listproduct' style={{ textDecoration: 'none' }}>

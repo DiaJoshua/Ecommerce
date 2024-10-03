@@ -21,7 +21,7 @@ const { signup } = require("./controllers/sellerController");
 
 require("dotenv").config();
 
-const mongoURI = process.env.MONGODB_URI;
+const mongoURI = 'mongodb+srv://dbUser:dbUserPassword@cluster0.fypkkcn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 // Define the sendEmail function
 const sendEmail = async (to, subject, text) => {
